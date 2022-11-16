@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon_1.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/stile.css">
+  <title>Видео курс по верстке</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-white">Сайт визитница артов по тематикам</h1>
+          <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="itd_trangle"></div>
+          </div>
+          <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Посмотреть примеры</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="about">
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color1 mb-5">Чем полезен проект?</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="icon-list-numbered"></i></div>
+          <h5 class="text-center">Структурированный материал</h5>
+          <div class="lain"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="icon-rouble"></i></div>
+          <h5 class="text-center">Бесплатный доступ</h5>
+          <div class="lain"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="icon-vkontakte"></i></div>
+          <h5 class="text-center">Авторство с ссылкой на соцсеть</h5>
+          <div class="lain"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="icon-chart-bar"></i></div>
+          <h5 class="text-center">Топовые работы</h5>
+          <div class="lain"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="icon-mobile"></i></div>
+          <h5 class="text-center">Просмотр со смартфона</h5>
+          <div class="lain"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="icon-heart"></i></div>
+          <h5 class="text-center">Отдельные подборки эскизов</h5>
+          <div class="lain"></div>
+        </div>
+      </div>
+  </section>
+
+  <section class="forwhom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color2 mb-5">Кому будет полезен проект?</h2>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">Ищет вдохновение</h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">Хочет научиться рисовать</h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">Посмотреть лучшие работы любимого автора</h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">Увидеть лучшие арты по конкретной тематике</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <a href="#footer" class="btn btn-lg text-appercase btn-itd ">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="shedule">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color1 mb-3">Тематики</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+      <div class="row">
+        <!-- Первый столбец -->
+        <div class="col-md-4 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3 fst-italic">Фото</h4>
+          <!-- Первый аккордион -->
+          <div class="accordion" id="accordion1">
+            <!-- Открытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                  aria-expanded="true" aria-controls="collapse1">Города</button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body fst-italic"><strong>Тут представлены антуражные фото различных городов нашей
+                    планеты:</strong>
+                  <ul>
+                    <li> Англия</li>
+                    <li>Япония</li>
+                    <li>Париж </li>
+                    <li>Москва</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  Косплей
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body fst-italic">
+                  <strong>Топовый косплей на разных персонажей</strong>
+                </div>
+              </div>
+            </div>
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  Киберпанк
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body fst-italic">
+                  <strong>Фото в жанре «стимпанк» и «киберпанк»</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Конец первого аккордиона -->
+        </div>
+
+        <!-- Второй столбец -->
+        <div class="col-md-4 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3 fst-italic">Арт</h4>
+          <!-- Второй аккордион -->
+          <div class="accordion" id="accordion2">
+            <!-- Открытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                  aria-expanded="true" aria-controls="collapse4 fst-italic">Города</button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse show" aria-labelledby="heading4"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic"><strong>Тут представлены антуражные арты различных городов нашей
+                    планеты:</strong>
+                  <ul>
+                    <li> Англия</li>
+                    <li>Япония</li>
+                    <li>Париж </li>
+                    <li>Москва</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  Персонаж
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic"><strong>Топовые арты различных персонажей</strong></div>
+              </div>
+            </div>
+
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  Genshin Impact
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic"><strong>Герои и пейзажи из игры Genshin Impact</strong></div>
+              </div>
+            </div>
+
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                  Anime
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic"><strong>Герои и пейзажи аниме</strong></div>
+              </div>
+            </div>
+
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                  Manga
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic"><strong>Герои и пейзажи манги</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Конец второго аккордиона -->
+
+
+        <!-- Третий столбец -->
+        <div class="col-md-4 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3 fst-italic">Эскиз</h4>
+          <!-- Третий аккордион -->
+          <div class="accordion" id="accordion3">
+            <!-- Открытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading9">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9"
+                  aria-expanded="true" aria-controls="collapse9 fst-italic">Человек</button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse show" aria-labelledby="heading9"
+                data-bs-parent="#accordion3">
+                <div class="accordion-body fst-italic"><strong>Подборка эскизов для рисовки человека:</strong>
+                  <ul>
+                    <li> Лицо</li>
+                    <li>Глаза</li>
+                    <li>Волосы </li>
+                    <li>Пряди и прическа</li>
+                    <li> Пропорции тела</li>
+                    <li>Позы тела</li>
+                    <li>Мышцы корпуса</li>
+                    <li>Сгибы тела</li>
+                    <li>Стопы</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading10">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                  Перспектива
+                </button>
+              </h2>
+              <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic"><strong>Эскизы по изучению перспективы</strong></div>
+              </div>
+            </div>
+            <!-- Закрытый элемент -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading11">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                  Одежда
+                </button>
+              </h2>
+              <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic"><strong>Ткани, складки и дизайн костюма</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Конец третьего аккордиона -->
+      </div>
+  </section>
+  
+  <section class="learning">
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color2 mb-5">Примеры героев и произведений, которые представлены в подборках:</h2>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-8 col-sm-12 text-center">
+          <h5>Genshin Impact: Хейдзо, РайденБ, Аято, Кли, Кейя, Барбара, Яэ Мико, Джун Ли, Сайно, Сни Цю, Тома, Сяо, Дилюк и т.д. </h5>
+          <h5>Так же публикуем фанатские комиксы. Нам все равно канон или нет. Мы за любое творчество! Если хотите опубликоваться пишите <a href="https://vk.com/juliamish" target="_blank">сюда</a></h5>
+          <h5>Арты персонажей, которые выдумали и созданнли сами художники, можно найти так же в подборке</h5>
+          <h5>Аниме: "Тетрадь смерти", "Токийские мстители", "Клинок, рассекающий демонов", "Унесенные призраками", "Гинтама", "Мастера меча онлайн", "Психопаспорт", "Бездомный Бог", "Да благословят боги сей расчудесный мир!", "Хвост феи" и т.д.</h5>
+          <h5>Манга: "Бродячие псы", "Человек-бензопила", "Созданный в бездне", "Ван Пис", "Оглянись", "Токийский гуль", "Обещанный Неверленд", "Патриотизм Мориарти" и т.д. </h5>
+        </div>
+        <div class="col-lg-3 col-sm-12 b-sm-5 mt-sm-5 text-center">
+          <img src="img/002.jpg" alt="Красивая картинка" class="img-fluid">
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <a href="#footer" class="btn btn-lg text-appercase btn-itd ">Посмотреть</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer"> </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel fst-italic">Пример артов по разным тематикам</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class='embed-container'><iframe src='https://www.youtube.com/embed/iUVNspaiBAo' frameborder='0'
+              allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
