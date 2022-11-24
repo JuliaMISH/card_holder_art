@@ -110,15 +110,15 @@ footer {
     color: var(--color2)
 }
 bg1 {
-    background-color;: var(--color1)
+    background-color: var(--color1)
 }
 
 bg2 {
-    background-color;: var(--color2)
+    background-color: var(--color2)
 }
 
 /* Чем полезен проект */
-.about, .shedule, .learning {
+.about, .shedule, .cofe {
     background-color: #eee;
 }
 
