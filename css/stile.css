@@ -3,9 +3,7 @@
     --color2: #220351;
 }
 
-header,
-footer,
-section {
+section, footer {
     padding: 100px 0px;
 }
 
@@ -144,6 +142,13 @@ bg2 {
     background-color: var(--color1);
     margin: 15px auto 30px;
 }
+
+.cofe_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
