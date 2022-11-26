@@ -9,6 +9,7 @@ ___
 *  Нtml и css 
 *  Framework Bootstrap
 *  Адаптивной верстки
+*  Создание формы сбора средств Yoomoney
 
 
 
