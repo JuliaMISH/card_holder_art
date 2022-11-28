@@ -14,7 +14,7 @@ ___
 *  Элемент карусель картинок
 
 
-[![Демоверсия](![](https://habrastorage.org/webt/lj/6h/sl/lj6hslexw-rgvq3aahzabolpuug.jpeg))](https://youtu.be/LJiywrCvRwM)
+[![Демоверсия](https://habrastorage.org/webt/lj/6h/sl/lj6hslexw-rgvq3aahzabolpuug.jpeg)](https://youtu.be/LJiywrCvRwM)
 
 
 
