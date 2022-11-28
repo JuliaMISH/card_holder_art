@@ -1,6 +1,7 @@
 :root {
     --color1: #f4ae0c;
     --color2: #220351;
+    --color3: #8868b8;
 }
 
 section, footer {
@@ -116,7 +117,7 @@ bg2 {
 }
 
 /* Чем полезен проект */
-.about, .shedule, .cofe {
+.about, .shedule, .cofe, .offcanvas {
     background-color: #eee;
 }
 

@@ -9,21 +9,21 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/fontello.css">
   <link rel="stylesheet" href="css/stile.css">
-  <title>Сайт визитница артов по тематикам</title>
+  <title>Сайт визитница иллюстраций и фото по тематикам</title>
 </head>
 
 <body>
 
   <header id="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="text-center text-white">Сайт визитница артов по тематикам</h1>
-            <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <div class="itd_trangle"></div>
-            </div>
-            <a href="#carousel" class="btn btn-itd btn-lg text-uppercase">Посмотреть примеры</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-white">Сайт визитница иллюстраций и фото по тематикам</h1>
+          <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="itd_trangle"></div>
           </div>
+          <a href="#carousel" class="btn btn-itd btn-lg text-uppercase">Посмотреть примеры</a>
+        </div>
       </div>
     </div>
   </header>
@@ -422,6 +422,43 @@
     </div>
   </section>
   <!-- Конец блока карусель -->
+
+  <!-- Вне холста -->
+  <section>
+    <div class="button_up">
+      <div class="col-12">
+        <a class="btn btn-primary text-uppercase btn-itd btn-lg" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          Перейти в каталог
+        </a>
+        <div class="offcanvas offcanvas-start color3" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Каталог иллюстраций и фото</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+              aria-label="Закрыть"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              Выберите интересующую Вас тему, данное меню поможет Вам переместиться в выбранный каталог!
+            </div>
+            <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle btn-itd " type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown">
+                Тематики подборок
+              </button>
+              <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Фото</a></li>
+                <li><a class="dropdown-item" href="#">Арты</a></li>
+                <li><a class="dropdown-item" href="#">Эскизы</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Конец блока вне холста -->
   <!-- Кнопка прокрутки вверх -->
   <section>
     <div class="button_up">
